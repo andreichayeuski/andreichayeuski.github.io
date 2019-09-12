@@ -1,0 +1,65 @@
+body
+{
+    margin: 1% 10%;
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.header
+{
+    font-size: large;
+    margin: 7px 0px;
+    font-weight: 700;
+    display: flex;
+    display: block;
+    position: static;
+    border: none;
+    box-shadow: none;
+    padding-left: 30px;
+    padding-top: 0;
+    width: 100%;
+    background-color: rgb(211, 254, 255);
+    overflow: hidden;                 
+}
+
+.header div
+{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #7cd2d6;
+}
+
+img
+{
+    width: 40%; 
+    height: 40%;
+    
+  transition: 1.5s linear;
+}
+
+img:hover{
+    width:100%;
+}
+
+@keyframes show {
+    from {
+        width: 40%; 
+      }
+    
+      to {
+        width: 100%;
+      }
+}
